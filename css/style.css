@@ -13,6 +13,35 @@
   box-sizing: border-box;
 }
 
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #e4b34a;
+  color: white;
+}
+
+/* Mailto */
+.fa-envelope {
+  background: #e4b34a;
+  color: white;
+}
+
 /* ==== CSS VARIABLES ==== */
 :root {
   --primary-color: #335eea;
@@ -26,7 +55,7 @@
 /* ==== RESET HTML ==== */
 body {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow-x: hidden;
   background-color: #fafbfb;
 }
@@ -69,8 +98,8 @@ button {
   width: 100%;
   padding-left: 1.7rem;
   padding-right: 1.7rem;
-  padding-top: 5rem;
-  margin-bottom: 5rem;
+  padding-top: 3rem;
+  margin-bottom: 0rem;
 }
 .grid-cols-2 {
   width: 100%;
@@ -80,13 +109,44 @@ button {
   gap: 4rem;
 }
 .grid-item-1 {
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-left: 1.5rem;
 }
+
+.sectionstyle {
+  margin-bottom: 20px; /* adjust value as needed */
+  padding-top: 10px; /* adjust value as needed */
+  padding-bottom: 10px; /* adjust value as needed */
+}
+
+
+.blocktext {
+  justify-content: center
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em
+}
+...
+
+
+.center {
+  margin: 10em;
+  width: 20%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 .main-heading {
   font-weight: 600;
   font-size: 40px;
   line-height: 55px;
+}
+
+.main-heading-center {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  justify-content: center;
 }
 
 .main-heading-bigger {
@@ -184,7 +244,7 @@ button {
   padding: 1rem;
 }
 .grid-col-item {
-  height: 100%;
+  height: 80%;
 }
 .icon {
   width: 100%;
